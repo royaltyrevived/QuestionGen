@@ -24,12 +24,16 @@ for i in range(x - 1):
 
     print(f"score of {filtered_sentence[i]}={d[i]}")
     print(d[i])
-    g = d[i]
-    f = g[0]
-    h = f[0]
+    if d[i] != []:
+        g = d[i]
+        f = g[0]
+        h = f[0]
+        d1.append(h)
+        print(d1)
 
-    d1.append(h)
-    print(d1)
+
+
+
 
 print('-----')
 print(d1)
@@ -42,4 +46,4 @@ for i in range(x):
 avg = s / x
 print(avg)
 
-
+#

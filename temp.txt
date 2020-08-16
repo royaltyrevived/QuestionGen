@@ -1,4 +1,5 @@
-state
-theory
-general
-relativity
+(4.0, 'star spreads')
+(4.0, 'gaps form')
+(1.0, 'weakens')
+(1.0, 'photons')
+(1.0, 'light')
