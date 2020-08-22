@@ -15,7 +15,7 @@ import bs4 as bs
 import urllib.request
 import re
 
-raw_html = urllib.request.urlopen('https://en.wikipedia.org/wiki/Natural_language_processing')
+raw_html = urllib.request.urlopen('https://en.wikipedia.org/wiki/General_relativity')
 raw_html = raw_html.read()
 
 article_html = bs.BeautifulSoup(raw_html, 'lxml')

@@ -31,10 +31,6 @@ for i in range(x - 1):
         d1.append(h)
         print(d1)
 
-
-
-
-
 print('-----')
 print(d1)
 x = len(d1)
